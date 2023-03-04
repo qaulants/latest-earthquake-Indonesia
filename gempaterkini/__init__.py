@@ -30,7 +30,7 @@ class BanjirTerkini(Bencana):
 
     def tampilkan_keterangan(self):
         print(f'UNDER CONSTRUCTION {self.description}')
-
+#polymorphism
 class GempaTerkini(Bencana):
     def __init__(self, url):
         super(GempaTerkini, self).__init__(url,'To get the latest earthquake in Indonesia from BMKG.go.id')
